@@ -11,7 +11,7 @@ var obstaclesGroup, obstacle1, obstacle2, obstacle3, obstacle4, obstacle5, obsta
 var score=0;
 
 var gameOver, restart;
-
+//for storing the hieghest score
 localStorage["HighestScore"] = 0;
 
 function preload(){
